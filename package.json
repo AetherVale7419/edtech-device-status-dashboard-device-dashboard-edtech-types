@@ -1,0 +1,17 @@
+{
+  "name": "edtech-device-status-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types src/device_status.test.ts",
+    "start": "node --experimental-strip-types src/dashboard_service.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  }
+}
